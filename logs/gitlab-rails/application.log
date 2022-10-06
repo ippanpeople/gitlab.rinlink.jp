@@ -1,0 +1,112 @@
+2022-10-05T16:00:17.538Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-05T16:00:17.623Z: Refreshing trending projects
+2022-10-05T16:20:21.261Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-05T16:40:24.375Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-05T17:00:05.610Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-05T17:20:08.592Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-05T17:40:07.700Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-05T18:00:06.451Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-05T18:20:07.281Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-05T18:40:10.460Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-05T19:00:07.950Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-05T19:20:09.248Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-05T19:40:11.654Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-05T20:00:10.396Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-05T20:20:14.933Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-05T20:40:11.224Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-05T21:00:07.864Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-05T21:20:10.592Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-05T21:21:10.884Z: {:message=>"Syncing dynamic postgres partitions"}
+2022-10-05T21:21:10.888Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-05T21:21:10.888Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2022-10-05T21:21:10.998Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-05T21:21:10.998Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2022-10-05T21:21:11.011Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-05T21:21:11.011Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"incident_management_pending_alert_escalations"}
+2022-10-05T21:21:11.022Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-05T21:21:11.022Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"incident_management_pending_issue_escalations"}
+2022-10-05T21:21:11.033Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-05T21:21:11.034Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"verification_codes"}
+2022-10-05T21:21:11.045Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2022-10-05T21:21:11.045Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-05T21:21:11.051Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-05T21:40:10.041Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-05T22:00:19.571Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-05T22:20:20.961Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-05T22:40:19.901Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-05T23:00:08.191Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-05T23:20:11.329Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-05T23:40:13.190Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-06T00:00:21.259Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-06T00:20:22.471Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-06T00:40:26.335Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-06T01:00:02.328Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-06T01:20:02.996Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-06T01:40:02.347Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-06T02:00:20.355Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-06T02:20:23.184Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-06T02:40:23.513Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-06T02:53:26.212Z: Instantiating Gitlab::Auth::Ldap::Person with LDIF:
+dn: cn=lin,ou=adminuser,dc=rinrin,dc=net
+cn: lin
+samaccountname: lin
+userprincipalname: lin@rinrin.net
+
+2022-10-06T03:00:20.379Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-06T03:20:22.192Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-06T03:21:09.155Z: {:message=>"Syncing dynamic postgres partitions"}
+2022-10-06T03:21:09.252Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:21:09.252Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2022-10-06T03:21:09.306Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:21:09.306Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2022-10-06T03:21:09.319Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:21:09.319Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"incident_management_pending_alert_escalations"}
+2022-10-06T03:21:09.330Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:21:09.331Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"incident_management_pending_issue_escalations"}
+2022-10-06T03:21:09.342Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:21:09.342Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"verification_codes"}
+2022-10-06T03:21:09.354Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2022-10-06T03:21:09.354Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:21:09.360Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:32:34.044Z: ActiveRecord connection established
+2022-10-06T03:33:34.030Z: ActiveRecord connection established
+2022-10-06T03:34:34.010Z: ActiveRecord connection established
+2022-10-06T03:35:34.008Z: ActiveRecord connection established
+2022-10-06T03:40:24.687Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-06T03:45:20.206Z: {:message=>"Dropping detached postgres partitions"}
+2022-10-06T03:45:20.206Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:45:20.269Z: {:message=>"Finished dropping detached postgres partitions"}
+2022-10-06T03:45:20.269Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T03:45:20.286Z: {:message=>"Switched database connection", :connection_name=>"main"}
+2022-10-06T04:00:18.075Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-06T04:16:16.270Z: Instantiating Gitlab::Auth::Ldap::Person with LDIF:
+dn: cn=lin,ou=adminuser,dc=rinrin,dc=net
+cn: lin
+samaccountname: lin
+userprincipalname: lin@rinrin.net
+
+2022-10-06T04:20:22.177Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-06T04:40:19.996Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds
+2022-10-06T04:59:13.618Z: lin created a new project "lin / git.rinlink.jp"
+2022-10-06T04:59:14.731Z: Updating statistics for project 34
+2022-10-06T04:59:14.930Z: Updating statistics for project 34
+2022-10-06T05:00:19.577Z: Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds
+2022-10-06T05:00:30.956Z: Adding key (key-1): ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCz+YrEuFu6x3cqNP0RAPBpd9XIGg4wnjbsqLriQYRsXUg1vJhoZdQ28Jt+VslUlDdRtWN8eBCO2pkcjAbbhe482ubWugEvxQreGYAPpAQW1u+ou6mUm0wtyjNn8vgToeUJh9t1t7/zJcK380WPzM+UsvdJlUQ39ewL6cXroSYZET0wnOG514nCMbb3oP9rme/ywvBqrUhLS2I7aVeB0FEepKGw5zzHaaH79ahUf3G1b4lAQuIMhHVPLHQPRpnAdI4PIDhihYp/dyi5SdI20UC/mx2RQJX4v4zp091DKAiStnnc+RVEBrm1mOu4t1l71jKGyKyWBIW7gG1jMIPkya/7
+2022-10-06T05:14:18.720Z: Updating statistics for project 34
+2022-10-06T05:14:18.722Z: Updating statistics for project 34
+2022-10-06T05:14:18.778Z: Cannot obtain an exclusive lease for namespace:namespaces_root_statistics:34. There must be another instance already in execution.
+2022-10-06T05:16:18.321Z: Instantiating Gitlab::Auth::Ldap::Person with LDIF:
+dn: cn=lin,ou=adminuser,dc=rinrin,dc=net
+cn: lin
+samaccountname: lin
+userprincipalname: lin@rinrin.net
+
+2022-10-06T05:17:32.031Z: Updating statistics for project 34
+2022-10-06T05:17:34.234Z: {:message=>"Pipeline authorized", :project_id=>34, :user_id=>34}
+2022-10-06T05:17:34.646Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2022-10-06T05:17:34.701Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2022-10-06T05:17:34.719Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2022-10-06T05:18:41.616Z: {:message=>"Pipeline authorized", :project_id=>34, :user_id=>34}
+2022-10-06T05:20:21.446Z: Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds
+2022-10-06T05:32:33.101Z: Updating statistics for project 34
+2022-10-06T05:40:23.365Z: Ci::StuckBuilds::DropScheduledService: Cleaning scheduled, timed-out builds

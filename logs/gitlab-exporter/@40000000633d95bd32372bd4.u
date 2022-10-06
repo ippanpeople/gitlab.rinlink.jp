@@ -1,0 +1,14 @@
+2022-10-05_14:29:13.31388 [2022-10-05 23:29:13] INFO  WEBrick 1.6.1
+2022-10-05_14:29:13.31396 [2022-10-05 23:29:13] INFO  ruby 2.7.4 (2021-07-07) [x86_64-linux]
+2022-10-05_14:29:13.31396 == Sinatra (v2.1.0) has taken the stage on 9168 for development with backup from WEBrick
+2022-10-05_14:29:13.31397 [2022-10-05 23:29:13] INFO  WEBrick::HTTPServer#start: pid=568 port=9168
+2022-10-05_14:30:05.56129 == Sinatra has ended his set (crowd applauds)
+2022-10-05_14:30:05.56163 [2022-10-05 23:30:05] INFO  going to shutdown ...
+2022-10-05_14:30:05.56166 [2022-10-05 23:30:05] INFO  WEBrick::HTTPServer#start done.
+2022-10-05_14:30:06.45547 [2022-10-05 23:30:06] INFO  WEBrick 1.6.1
+2022-10-05_14:30:06.45548 [2022-10-05 23:30:06] INFO  ruby 2.7.4 (2021-07-07) [x86_64-linux]
+2022-10-05_14:30:06.45600 == Sinatra (v2.1.0) has taken the stage on 9168 for development with backup from WEBrick
+2022-10-05_14:30:06.45626 [2022-10-05 23:30:06] INFO  WEBrick::HTTPServer#start: pid=832 port=9168
+2022-10-05_14:31:31.19540 == Sinatra has ended his set (crowd applauds)
+2022-10-05_14:31:31.19579 [2022-10-05 23:31:31] INFO  going to shutdown ...
+2022-10-05_14:31:31.19584 [2022-10-05 23:31:31] INFO  WEBrick::HTTPServer#start done.

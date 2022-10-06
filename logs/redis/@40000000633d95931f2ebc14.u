@@ -1,0 +1,16 @@
+2022-10-05_14:28:29.85346 267:C 05 Oct 2022 23:28:29.853 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2022-10-05_14:28:29.85353 267:C 05 Oct 2022 23:28:29.853 # Redis version=6.0.16, bits=64, commit=5895d119, modified=1, pid=267, just started
+2022-10-05_14:28:29.85355 267:C 05 Oct 2022 23:28:29.853 # Configuration loaded
+2022-10-05_14:28:29.85451 267:M 05 Oct 2022 23:28:29.854 * Running mode=standalone, port=0.
+2022-10-05_14:28:29.85454 267:M 05 Oct 2022 23:28:29.854 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2022-10-05_14:28:29.85455 267:M 05 Oct 2022 23:28:29.854 # Server initialized
+2022-10-05_14:28:29.85457 267:M 05 Oct 2022 23:28:29.854 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2022-10-05_14:28:29.85461 267:M 05 Oct 2022 23:28:29.854 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo madvise > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled (set to 'madvise' or 'never').
+2022-10-05_14:28:29.85502 267:M 05 Oct 2022 23:28:29.855 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2022-10-05_14:31:34.57297 267:signal-handler (1664980294) Received SIGTERM scheduling shutdown...
+2022-10-05_14:31:34.65616 267:M 05 Oct 2022 23:31:34.656 # User requested shutdown...
+2022-10-05_14:31:34.65617 267:M 05 Oct 2022 23:31:34.656 * Saving the final RDB snapshot before exiting.
+2022-10-05_14:31:34.65811 267:M 05 Oct 2022 23:31:34.658 * DB saved on disk
+2022-10-05_14:31:34.65813 267:M 05 Oct 2022 23:31:34.658 * Removing the pid file.
+2022-10-05_14:31:34.65815 267:M 05 Oct 2022 23:31:34.658 * Removing the unix socket file.
+2022-10-05_14:31:34.65818 267:M 05 Oct 2022 23:31:34.658 # Redis is now ready to exit, bye bye...

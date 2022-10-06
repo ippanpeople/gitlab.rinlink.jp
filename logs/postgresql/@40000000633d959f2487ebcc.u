@@ -1,0 +1,28 @@
+2022-10-05_14:28:41.96234 LOG:  starting PostgreSQL 12.7 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, 64-bit
+2022-10-05_14:28:41.96274 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2022-10-05_14:28:41.97448 LOG:  database system was interrupted; last known up at 2022-10-05 14:24:39 GMT
+2022-10-05_14:28:42.10972 LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-05_14:28:42.11106 LOG:  redo starts at 0/15CE290
+2022-10-05_14:28:43.34078 LOG:  invalid record length at 0/35FEAA8: wanted 24, got 0
+2022-10-05_14:28:43.34085 LOG:  redo done at 0/35FEA80
+2022-10-05_14:28:43.34086 LOG:  database system is ready to accept connections
+2022-10-05_14:28:44.73574 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-05_14:28:44.73581 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-05_14:28:44.73581 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-05_14:28:44.73582 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-05_14:28:44.73582 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-05_14:28:44.73582 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-05_14:28:44.73582 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-05_14:28:44.73583 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-05_14:28:44.73583 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-05_14:31:33.72919 received TERM from runit, sending INT instead to force quit connections
+2022-10-05_14:31:33.73002 LOG:  received fast shutdown request
+2022-10-05_14:31:33.73075 LOG:  aborting any active transactions
+2022-10-05_14:31:33.73257 FATAL:  terminating connection due to administrator command
+2022-10-05_14:31:33.73259 FATAL:  terminating connection due to administrator command
+2022-10-05_14:31:33.73259 FATAL:  terminating connection due to administrator command
+2022-10-05_14:31:33.73259 FATAL:  terminating connection due to administrator command
+2022-10-05_14:31:33.73259 FATAL:  terminating connection due to administrator command
+2022-10-05_14:31:33.73260 LOG:  background worker "logical replication launcher" (PID 410) exited with exit code 1
+2022-10-05_14:31:33.73330 LOG:  shutting down
+2022-10-05_14:31:33.73794 LOG:  database system is shut down
